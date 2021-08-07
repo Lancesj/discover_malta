@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
   <title>NewsGrid | Latest News</title>
 </head>
 <body>
@@ -38,7 +39,8 @@
         <div class="showcase-content">
           <a href="main.html"><h1 class="main"> MALTA</h1></a>
           <section class="header-down-arrow">
-            <i class="fas fa-chevron-down fa-4x"></i>
+            <span class="iconify header-down-arrow chevron-down" data-icon="entypo:chevron-thin-down"></span>
+            <!-- <i class="fas fa-chevron-down fa-4x"></i> -->
           </section>
         </div>
       </div>
@@ -63,7 +65,6 @@
   <!-- Home Articles -->
   <section id="home-articles" class="py-2">
     <div class="container">
-        <h2>Editor Picks</h2>
         <div class="articles-container">
           <article class="card">
             <img src="img/articles/ent1.jpg" alt="">
@@ -88,7 +89,7 @@
             <h3>
               <a href="article.html" class="title-light">Views From Mdina</a>
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
+            <p>Mdina, also known by its titles Città Vecchia or Città Notabile, is a fortified city in the Northern Region of Malta which served as the island's capital from antiquity to the medieval period</p>
           </article>
           <article class="card">
             <div class="category category-general">General</div>
@@ -109,7 +110,7 @@
           <article class="card bg-primary">
             <div class="category category-malta">Malta</div>
             <h3>
-              <a href="article3.html" class="title-dark">Boats Of Malta</a>
+              <a href="article3.html" class="title-dark">St. Pauls Bay</a>
             </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
           </article>
@@ -126,7 +127,13 @@
         </div>
     </div>
   </section>
-
+<!-- Map -->
+<footer id="Map" >
+  <div class="footer-container">
+    <iframe class="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206732.67621297576!2d14.238238657690689!3d35.942124436124054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e45281d8647c5%3A0xf582d86136be4239!2sMalta!5e0!3m2!1sen!2sus!4v1628359471473!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  
+</footer>
   <!-- Footer -->
   <footer id="main-footer" class="py-2">
     <div class="container footer-container">
@@ -162,6 +169,7 @@
       </div>
     </div>
   </footer>
+  
 
 
 </body>
