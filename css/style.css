@@ -389,6 +389,10 @@ h6 {
   grid-gap: 1.5rem;
 }
 
+.newsletter {
+  grid-column: 2 / span 1;
+}
+
 #main-footer .footer-container > *:last-child {
   background: #444;
   grid-column: 1 / span 4;
